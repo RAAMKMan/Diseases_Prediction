@@ -14,9 +14,9 @@ st.set_page_config(page_title="Prediction of Disease Outbreaks",
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
-diabetes_model=pickle.load(open(r"D:\Prediction_of_Diseases_Outbreak\diabetes_model.sav",'rb'))
-heart_model=pickle.load(open(r"D:\Prediction_of_Diseases_Outbreak\heart_model.sav",'rb'))
-parkinsons_model=pickle.load(open(r"D:\Prediction_of_Diseases_Outbreak\parkinsons_model.sav",'rb'))
+diabetes_model=pickle.load(open(r"Prediction_of_Diseases_Outbreak\diabetes_model.sav",'rb'))
+heart_model=pickle.load(open(r"Prediction_of_Diseases_Outbreak\heart_model.sav",'rb'))
+parkinsons_model=pickle.load(open(r"Prediction_of_Diseases_Outbreak\parkinsons_model.sav",'rb'))
 # sidebar for navigation
 with st.sidebar:
     selected = option_menu('Prediction of Disease Outbreaks System',
